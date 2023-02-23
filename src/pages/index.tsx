@@ -1,14 +1,11 @@
+/*
+ * @Author: xiaoreya <xiaoreya@zknow.com>
+ * @Date: 2022-11-15 15:49:40
+ * @Description:
+ */
 import React from 'react';
 import styles from './index.less';
-import SmallYellowMan from './components/smallYellowMan';
-import FunctionTest from './components/functionTest';
 
 export default () => {
-  return (
-    <div>
-      {/* <h1 className={styles.title}>Page index</h1> */}
-      {/* <SmallYellowMan /> */}
-      <FunctionTest />
-    </div>
-  );
-}
+  return <div>我是小热呀</div>;
+};
