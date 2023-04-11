@@ -6,6 +6,12 @@
 import React from 'react';
 import styles from './index.less';
 
-export default () => {
-  return <div>我是小热呀</div>;
+const About = () => {
+  return (
+    <div className={styles['about']}>
+      about
+    </div>
+  );
 };
+
+export default About;
