@@ -9,6 +9,7 @@ const routers: any = [
     exact: false, 
     routes: [
       { path: '/', component: '@/pages/home', exact: true },
+      { path: '/home', component: '@/pages/home', exact: true },
       { path: '/about', component: '@/pages/about', exact: true },
       { path: '/knowledge', component: '@/pages/knowledge', exact: true },
       { path: '/introduce', component: '@/pages/introduce', exact: true },
